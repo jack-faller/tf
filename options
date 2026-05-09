@@ -1,1 +1,2 @@
 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars
+-refresh 60 -freq 60

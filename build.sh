@@ -1,7 +1,8 @@
 #!/bin/sh
 set -e
 
-cd $(dirname "$0")
+# Build the tf folder in the tf folder of the source dir for this script.
+cd "$(dirname "$0")"
 ICON_DIR=tf/custom/better-kill-icons
 HUD_DIR=tf/custom/FlawHUD
 mkdir -p "$ICON_DIR" "$HUD_DIR" tf dld
