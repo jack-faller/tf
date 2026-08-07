@@ -28,7 +28,7 @@ slot 1 3 2 255 0 255
 slot 2 1 3 0 255 0
 slot 3 2 1 255 255 0
 
-sed 's/TEAM/-2/; s/OTHERSCRIPT/alt/' templates/spy.cfg > tf/cfg/spy-same.cfg
-sed 's/TEAM/-1/; s/OTHERSCRIPT/same/' templates/spy.cfg > tf/cfg/spy-alt.cfg
+sed 's/TEAM/-1/; s/OTHERSCRIPT/alt/' templates/spy.cfg > tf/cfg/spy-same.cfg
+sed 's/TEAM/-2/; s/OTHERSCRIPT/same/' templates/spy.cfg > tf/cfg/spy-alt.cfg
 
 cp cfg/* tf/cfg
